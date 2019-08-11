@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+
+	{% for file in files %}
+     	<a href="?user={{root}}{{ file }}">{{ file }} </a>
+     	<br>
+  	{% endfor %}
+
+
+</body>
+</html>
